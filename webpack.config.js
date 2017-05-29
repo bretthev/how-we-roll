@@ -12,7 +12,7 @@ module.exports = {
         modules: [path.resolve('src'), 'node_modules'],
         extensions: ['.tsx', '.ts', '.jsx', '.js'],
     },
-
+    devtool: "source-map",
     module: {
         rules: [{
             test: /\.scss$/,
