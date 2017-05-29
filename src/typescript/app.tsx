@@ -7,7 +7,7 @@ interface Props {
 class App extends React.Component<Props, {}> {
     public render(): React.ReactElement<{}> {
         return (
-            <Hello compiler='Webpack' framework='react' />
+            <Hello compiler='hey it reloads' framework='hoooooray' />
         );
     };
 };
